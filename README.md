@@ -10,6 +10,8 @@
 
 1. index.html文件代码
 
+   ···html
+
        <!DOCTYPE html>
        <html lang="zh-CN">
          <head>
@@ -86,6 +88,8 @@
            </div>
          </body>
        </html>
+
+   ···
 
    **PS：**
 
