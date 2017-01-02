@@ -10,86 +10,84 @@
 
 1. index.html文件代码
 
-   ···html
-
-       <!DOCTYPE html>
-       <html lang="zh-CN">
-         <head>
-           <meta charset="utf-8">
-           <meta http-equiv="X-UA-Compatible" content="IE=edge">
-           <meta name="viewport" content="width=device-width, initial-scale=1">
-           <title>jQuery轮播插件</title>
-           <script type="text/javascript" src="jquery-1.10.1.js"></script>
-           <script type="text/javascript" src="jquery.carousel.js"></script>
-           <script type="text/javascript" src="index.js"></script>
-           <style type="text/css">
-              .divStyle{
-                 text-align: center;
-                 color: #fff;
-                 font-size: 20px;
-                 line-height: 250px;
-              }
-           </style>
-         </head>
-         <body>
-           <p>水平方向右滑动轮播：slidex-right</p>
-           <div class="a">
-               <img class="item" src="images/banner1.jpg">
-               <img class="item" src="images/banner2.jpg">
-               <img class="item" src="images/banner3.jpg"> 
-           </div>
-           <p>水平方向左滑动轮播：slidex-left</p>
-           <div class="b">
-               <img class="item" src="images/banner1.jpg">
-               <img class="item" src="images/banner2.jpg">
-               <img class="item" src="images/banner3.jpg"> 
-           </div>     
-           <p>垂直方向下滑动轮播：slidey-down</p>
-           <div class="c">
-                <img class="item" src="images/jd1.jpg">
-                <img class="item" src="images/jd2.jpg">
-                <img class="item" src="images/jd3.jpg">
-                <img class="item" src="images/jd4.jpg">
-                <img class="item" src="images/jd5.jpg">
-                <img class="item" src="images/jd6.jpg">
-           </div>
-           <p>垂直方向上滑动轮播：slidey-up</p>
-           <div class="d">
-                <img class="item" src="images/jd1.jpg">
-                <img class="item" src="images/jd2.jpg">
-                <img class="item" src="images/jd3.jpg">
-                <img class="item" src="images/jd4.jpg">
-                <img class="item" src="images/jd5.jpg">
-                <img class="item" src="images/jd6.jpg">
-           </div>    
-           <p>水平方向渐隐轮播：opacx</p>
-           <div class="e">
-                <div class="item divStyle" style="background:red">1</div>
-                <div class="item divStyle" style="background:blue">2</div>
-                <div class="item divStyle" style="background:green">3</div>
-                <div class="item divStyle" style="background:orange">4</div>
-                <div class="item divStyle" style="background:yellow">5</div>
-                <div class="item divStyle" style="background:maroon">6</div>
-                <div class="item divStyle" style="background:gray">7</div>
-                <div class="item divStyle" style="background:purple">8</div>
-                <div class="item divStyle" style="background:black">9</div>
-           </div>
-           <p>垂直方向渐隐轮播：opacy</p>
-           <div class="f">
-                <div class="item divStyle" style="background:red">1</div>
-                <div class="item divStyle" style="background:blue">2</div>
-                <div class="item divStyle" style="background:green">3</div>
-                <div class="item divStyle" style="background:orange">4</div>
-                <div class="item divStyle" style="background:yellow">5</div>
-                <div class="item divStyle" style="background:maroon">6</div>
-                <div class="item divStyle" style="background:gray">7</div>
-                <div class="item divStyle" style="background:purple">8</div>
-                <div class="item divStyle" style="background:black">9</div>
-           </div>
-         </body>
-       </html>
-
-   ···
+   ```html
+   <!DOCTYPE html>
+   <html lang="zh-CN">
+     <head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>jQuery轮播插件</title>
+       <script type="text/javascript" src="jquery-1.10.1.js"></script>
+       <script type="text/javascript" src="jquery.carousel.js"></script>
+       <script type="text/javascript" src="index.js"></script>
+       <style type="text/css">
+          .divStyle{
+             text-align: center;
+             color: #fff;
+             font-size: 20px;
+             line-height: 250px;
+          }
+       </style>
+     </head>
+     <body>
+       <p>水平方向右滑动轮播：slidex-right</p>
+       <div class="a">
+           <img class="item" src="images/banner1.jpg">
+           <img class="item" src="images/banner2.jpg">
+           <img class="item" src="images/banner3.jpg"> 
+       </div>
+       <p>水平方向左滑动轮播：slidex-left</p>
+       <div class="b">
+           <img class="item" src="images/banner1.jpg">
+           <img class="item" src="images/banner2.jpg">
+           <img class="item" src="images/banner3.jpg"> 
+       </div>     
+       <p>垂直方向下滑动轮播：slidey-down</p>
+       <div class="c">
+            <img class="item" src="images/jd1.jpg">
+            <img class="item" src="images/jd2.jpg">
+            <img class="item" src="images/jd3.jpg">
+            <img class="item" src="images/jd4.jpg">
+            <img class="item" src="images/jd5.jpg">
+            <img class="item" src="images/jd6.jpg">
+       </div>
+       <p>垂直方向上滑动轮播：slidey-up</p>
+       <div class="d">
+            <img class="item" src="images/jd1.jpg">
+            <img class="item" src="images/jd2.jpg">
+            <img class="item" src="images/jd3.jpg">
+            <img class="item" src="images/jd4.jpg">
+            <img class="item" src="images/jd5.jpg">
+            <img class="item" src="images/jd6.jpg">
+       </div>    
+       <p>水平方向渐隐轮播：opacx</p>
+       <div class="e">
+            <div class="item divStyle" style="background:red">1</div>
+            <div class="item divStyle" style="background:blue">2</div>
+            <div class="item divStyle" style="background:green">3</div>
+            <div class="item divStyle" style="background:orange">4</div>
+            <div class="item divStyle" style="background:yellow">5</div>
+            <div class="item divStyle" style="background:maroon">6</div>
+            <div class="item divStyle" style="background:gray">7</div>
+            <div class="item divStyle" style="background:purple">8</div>
+            <div class="item divStyle" style="background:black">9</div>
+       </div>
+       <p>垂直方向渐隐轮播：opacy</p>
+       <div class="f">
+            <div class="item divStyle" style="background:red">1</div>
+            <div class="item divStyle" style="background:blue">2</div>
+            <div class="item divStyle" style="background:green">3</div>
+            <div class="item divStyle" style="background:orange">4</div>
+            <div class="item divStyle" style="background:yellow">5</div>
+            <div class="item divStyle" style="background:maroon">6</div>
+            <div class="item divStyle" style="background:gray">7</div>
+            <div class="item divStyle" style="background:purple">8</div>
+            <div class="item divStyle" style="background:black">9</div>
+       </div>
+     </body>
+   </html>
+   ```
 
    **PS：**
 
@@ -99,41 +97,40 @@
 
 2. index.js文件代码
 
-   ···javascript
-
-       $(function(){      
-          //水平方向右滑动轮播
-          $('.a').jCarousel({
-             type:'slidex-right',
-             carsize: {carwidth:700,carheight:150},
-          });
-          //水平方向左滑动轮播
-          $('.b').jCarousel({
-             type:'slidex-left',
-             carsize: {carwidth:700,carheight:150},
-          });       
-          //垂直方向下滑动轮播
-          $('.c').jCarousel({
-             type:'slidey-down',
-             carsize: {carwidth:600,carheight:400},
-          });
-          //垂直方向上滑动轮播
-          $('.d').jCarousel({
-             type:'slidey-up',
-             carsize: {carwidth:600,carheight:400},
-          });       
-          //水平方向渐隐轮播
-          $('.e').jCarousel({
-             type:'opacx',
-             carsize: {carwidth:500,carheight:300},
-          });
-          //垂直方向渐隐轮播
-          $('.f').jCarousel({
-             type:'opacy',
-             carsize: {carwidth:500,carheight:300},
-          });
-       }); 
-   ···
+   ```
+   $(function(){      
+      //水平方向右滑动轮播
+      $('.a').jCarousel({
+         type:'slidex-right',
+         carsize: {carwidth:700,carheight:150},
+      });
+      //水平方向左滑动轮播
+      $('.b').jCarousel({
+         type:'slidex-left',
+         carsize: {carwidth:700,carheight:150},
+      });       
+      //垂直方向下滑动轮播
+      $('.c').jCarousel({
+         type:'slidey-down',
+         carsize: {carwidth:600,carheight:400},
+      });
+      //垂直方向上滑动轮播
+      $('.d').jCarousel({
+         type:'slidey-up',
+         carsize: {carwidth:600,carheight:400},
+      });       
+      //水平方向渐隐轮播
+      $('.e').jCarousel({
+         type:'opacx',
+         carsize: {carwidth:500,carheight:300},
+      });
+      //垂直方向渐隐轮播
+      $('.f').jCarousel({
+         type:'opacy',
+         carsize: {carwidth:500,carheight:300},
+      });
+   });
+   ```
 
    **PS：**
 
@@ -188,8 +185,6 @@
    2. jQuery轮播器插件默认参数配置
 
       以下为轮播器插件的默认配置，在调用时可根据需要更改默认配置，也可以通过传递参数覆盖默认配置；
-
-      ​
 
           {
              type: 'slidex-right',
