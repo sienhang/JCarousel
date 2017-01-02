@@ -99,6 +99,8 @@
 
 2. index.js文件代码
 
+   ···javascript
+
        $(function(){      
           //水平方向右滑动轮播
           $('.a').jCarousel({
@@ -131,6 +133,8 @@
              carsize: {carwidth:500,carheight:300},
           });
        }); 
+   ···
+
    **PS：**
 
    * 在调用时，选中父元素标签，调用jCarousel方法即可，参数传递一个对象，用来配置轮播器，详细参数配置见下文。如：$(parent).jCarousel({ });
